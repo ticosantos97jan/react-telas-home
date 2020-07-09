@@ -1,26 +1,8 @@
-import React, { useState } from 'react';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    Badge,
-    Breadcrumb, 
-    BreadcrumbItem,
-    NavbarText
-} from 'reactstrap';
+import React from 'react';
+import {Navbar} from 'reactstrap';
 
 const Headers = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
+   
 
     return (
         <div>
